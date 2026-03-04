@@ -1,0 +1,13 @@
+{
+  "Name": "Joint agency EEG dataset",
+  "BIDSVersion": "1.8.0",
+  "Authors": [
+	"Zijun Zhou",
+	"Anna Zamm",
+	"Justin Christensen",
+	"Vinesh Rao",
+	"Janeen Loehr"
+],
+  "DatasetType":"raw",
+  "License": "CC0"
+}
