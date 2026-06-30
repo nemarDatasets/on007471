@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on007471-blue)](https://doi.org/10.82901/nemar.on007471)
+
 # Behavioural and EEG data from an EEG hyperscanning study examining cognitive and neural signals underlying the sense of joint agency during a musical joint action task
 
 ---
