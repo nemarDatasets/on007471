@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on007471",
-  "source": "openneuro",
-  "source_id": "ds007471",
+  "pipeline_stage": "validated",
   "title": "Joint agency EEG dataset",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Zijun Zhou": {},
     "Anna Zamm": {},
@@ -11,23 +11,72 @@
     "Vinesh Rao": {},
     "Janeen Loehr": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007471.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007471",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007471",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "beh",
     "eeg"
   ],
-  "datatypes": [
-    "beh",
-    "eeg"
-  ]
+  "resource_type_specific": "Neuroimaging Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".elp",
+    ".json",
+    ".md",
+    ".png",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "This dataset comprises simultaneous EEG recordings (hyperscanning) from 32 musical dyads performing joint action tasks, including both musical duets and constant pitch sequences. Participants' neural activity and behavioral synchronization metrics were recorded during coordinated musical performance to investigate the neural correlates of joint agency. The dataset includes raw 64-channel EEG data (32 channels per participant), behavioral ratings of joint agency, and quantified synchronization performance metrics.",
+  "methods_description": "EEG data were acquired using 32-channel systems for each participant in a dyad (64 channels total per pair) during a joint musical action task. Participants performed 8 tone sequences (4 musical duets and 4 constant pitch sequences) with 5 joint trials per sequence, totaling 40 test trials per pair. Behavioral data included self-reported joint agency ratings (1-7 scale) and objective synchronization performance metrics calculated from inter-onset intervals. Event markers tracked experimental phases including condition blocks, trial onsets/offsets, metronome tones, and individual participant tone onsets.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "hyperscanning"
+    },
+    {
+      "term": "joint agency"
+    },
+    {
+      "term": "musical performance"
+    },
+    {
+      "term": "dyadic interaction"
+    },
+    {
+      "term": "neural synchronization"
+    },
+    {
+      "term": "joint action"
+    },
+    {
+      "term": "synchronization"
+    },
+    {
+      "term": "behavioral data"
+    }
+  ],
+  "source_hash": "14f737302ab7fc0fd54f00dd9623cb49cc436dd0e21c1a5a852beae9584cd460"
 }
