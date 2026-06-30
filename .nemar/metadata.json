@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Joint agency EEG dataset",
+  "description": "This dataset comprises simultaneous EEG recordings (hyperscanning) and behavioral data from 32 participant pairs engaged in a joint musical action task. Participants performed either musical duets or constant pitch sequences while their sense of joint agency was assessed via self-report ratings. The dataset includes raw EEG data from 64 channels (32 per participant) in BrainVision format, synchronized behavioral measures of performance synchronization, and detailed event markers for experimental conditions and trial structure.",
+  "methods_description": "EEG data were acquired simultaneously from two participants using 32-channel systems per participant (64 channels total) in BrainVision format. Participants performed 8 tone sequences (4 musical duets and 4 constant pitch sequences) with 5 joint trials per sequence, yielding 40 test trials per pair. Behavioral synchronization performance was calculated as the mean absolute asynchrony between participants' note onsets normalized by inter-onset interval, with standard deviation computed across all beats per trial. Joint agency was assessed using a 1-7 self-report rating scale.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -11,12 +13,30 @@
     "Vinesh Rao": {},
     "Janeen Loehr": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds007471.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "hyperscanning"
+    },
+    {
+      "term": "joint action"
+    },
+    {
+      "term": "musical performance"
+    },
+    {
+      "term": "agency perception"
+    },
+    {
+      "term": "interpersonal synchronization"
+    },
+    {
+      "term": "social neuroscience"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on007471",
       "identifier_type": "URL",
@@ -26,16 +46,21 @@
       "identifier": "https://nemar.org/dataset/on007471",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007471.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "Neuroimaging Dataset",
   "modalities": [
     "beh",
     "eeg"
   ],
-  "resource_type_specific": "Neuroimaging Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "8.7 GB (99 files)"
   ],
   "formats": [
     ".eeg",
@@ -45,38 +70,8 @@
     ".png",
     ".tsv",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "This dataset comprises simultaneous EEG recordings (hyperscanning) from 32 musical dyads performing joint action tasks, including both musical duets and constant pitch sequences. Participants' neural activity and behavioral synchronization metrics were recorded during coordinated musical performance to investigate the neural correlates of joint agency. The dataset includes raw 64-channel EEG data (32 channels per participant), behavioral ratings of joint agency, and quantified synchronization performance metrics.",
-  "methods_description": "EEG data were acquired using 32-channel systems for each participant in a dyad (64 channels total per pair) during a joint musical action task. Participants performed 8 tone sequences (4 musical duets and 4 constant pitch sequences) with 5 joint trials per sequence, totaling 40 test trials per pair. Behavioral data included self-reported joint agency ratings (1-7 scale) and objective synchronization performance metrics calculated from inter-onset intervals. Event markers tracked experimental phases including condition blocks, trial onsets/offsets, metronome tones, and individual participant tone onsets.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "hyperscanning"
-    },
-    {
-      "term": "joint agency"
-    },
-    {
-      "term": "musical performance"
-    },
-    {
-      "term": "dyadic interaction"
-    },
-    {
-      "term": "neural synchronization"
-    },
-    {
-      "term": "joint action"
-    },
-    {
-      "term": "synchronization"
-    },
-    {
-      "term": "behavioral data"
-    }
-  ],
-  "source_hash": "14f737302ab7fc0fd54f00dd9623cb49cc436dd0e21c1a5a852beae9584cd460"
+  "source_hash": "02c83714b5f75017919b8cd640db0508fd217cd3616b8625b8c70212a85d6b91"
 }
