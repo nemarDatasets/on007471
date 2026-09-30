@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Joint agency EEG dataset",
-  "description": "This dataset contains behavioural and EEG hyperscanning data collected from 32 pairs of participants performing a musical joint action task. The data were collected to examine cognitive and neural signals underlying the sense of joint agency during synchronized musical performance. Each pair's data includes behavioural ratings and synchronization measures alongside dual-participant 64-channel EEG recordings in BrainVision format.",
-  "methods_description": "EEG hyperscanning data were recorded simultaneously from pairs of participants using a 32-channel setup per participant (64 channels total), stored in BrainVision format (.eeg, .vhdr, .vmrk). Behavioural data include joint agency ratings, synchronization performance metrics (mean and standard deviation of note-onset asynchronies), and trial/block/condition markers. Participants performed musical duets and constant pitch sequences while EEG and tone onset events were time-locked via event markers.",
+  "description": "This dataset contains behavioural and dual-EEG hyperscanning recordings from pairs of participants performing a musical joint action task. Pairs performed musical duets and constant pitch sequences on electronic music boxes and rated their sense of joint agency on each trial. The data support investigation of the cognitive and neural signals underlying joint agency, and include synchronization performance measures and event markers.",
+  "methods_description": "Pairs of participants (32 pairs) each performed 8 tone sequences (4 musical duets and 4 constant pitch sequences), with 5 joint trials per sequence (40 test trials per pair). EEG was recorded simultaneously from both participants with 32 channels each and stored in BrainVision format. After each trial, participants rated joint agency on a 1-7 scale. Synchronization performance was computed from note onset asynchronies as a proportion of the inter-onset interval.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -21,16 +21,16 @@
       "term": "hyperscanning"
     },
     {
+      "term": "joint agency"
+    },
+    {
       "term": "joint action"
     },
     {
-      "term": "sense of agency"
+      "term": "music"
     },
     {
-      "term": "music performance"
-    },
-    {
-      "term": "interpersonal synchronization"
+      "term": "sensorimotor synchronization"
     }
   ],
   "related_identifiers": [
@@ -57,7 +57,7 @@
     "eeg"
   ],
   "sizes": [
-    "8.7 GB (99 files)"
+    "8.06 GB (99 files)"
   ],
   "formats": [
     ".eeg",
